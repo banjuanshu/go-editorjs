@@ -1,0 +1,114 @@
+{
+  "styleName": "bulma",
+  "libraryPaths": [
+    "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+  ],
+  "pageHead": [
+    "<meta charset=\"utf-8\">",
+    "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+  ],
+  "spaceBetweenBlocks": "full",
+  "alignment": {
+    "left": "has-text-left",
+    "center": "has-text-centered",
+    "right": "has-text-right"
+  },
+  "blocks": {
+    "header": {
+      "h1": "title is-1",
+      "h2": "title is-2",
+      "h3": "title is-3",
+      "h4": "title is-4",
+      "h5": "title is-5",
+      "h6": "title is-6"
+    },
+    "paragraph": "",
+    "quote": {
+      "figure": "",
+      "blockquote": "",
+      "figcaption": "",
+      "author": "is-italic"
+    },
+    "warning": {
+      "block": "notification is-warning is-light",
+      "title": "has-text-weight-bold",
+      "closeButton": true
+    },
+    "delimiter": "has-text-centered is-size-4",
+    "alert": {
+      "block": "notification",
+      "closeButton": true,
+      "types": {
+        "primary": "is-primary",
+        "secondary": "is-link",
+        "info": "is-info",
+        "success": "is-success",
+        "warning": "is-warning",
+        "danger": "is-danger",
+        "light": "is-light",
+        "dark": "is-dark"
+      }
+    },
+    "list": {
+      "group": "content",
+      "nestedGroup": "",
+      "item": ""
+    },
+    "checklist": {
+      "block": "",
+      "item": "",
+      "text": "",
+      "checkboxChecked": "tag is-link is-rounded",
+      "checkboxUnchecked": "tag is-rounded"
+    },
+    "table": {
+      "table": "table is-striped is-bordered",
+      "row": "",
+      "cellTH": "",
+      "cellTD": ""
+    },
+    "anyButton": "button is-link",
+    "code": {
+      "pre": "",
+      "code": ""
+    },
+    "raw": {
+      "pre": "",
+      "code": ""
+    },
+    "image": {
+      "block": "image",
+      "image": "",
+      "border": "",
+      "stretched": "is-fullwidth",
+      "background": "has-background-primary p-5"
+    },
+    "linkTool": {
+      "link": "has-text-black-bis",
+      "container": "columns is-full p-5 has-background-light m-5",
+      "leftColumn": "column is-10",
+      "rightColumn": "column is-2",
+      "title": "column is-12 has-text-weight-bold",
+      "description": "column is-12",
+      "linkDescription": "column is-12 has-text-grey-light",
+      "image": "image is-96x96"
+    },
+    "attaches": {
+      "link": "has-text-black-bis",
+      "container": "columns is-full p-5 has-background-light m-5",
+      "leftColumn": "column is-2",
+      "centerColumn": "column is-9",
+      "rightColumn": "column is-1",
+      "filename": "column is-12 has-text-weight-bold",
+      "size": "column is-12 has-text-grey-light",
+      "leftImage": "image is-96x96",
+      "rightImage": "image is-48x48"
+    },
+    "embed": {
+      "block": "",
+      "title": "has-text-grey-dark p-2 has-text-weight-bold",
+      "bottom": "p-2 has-text-right is-italic",
+      "link": "has-text-danger-dark"
+    }
+  }
+}

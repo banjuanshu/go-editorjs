@@ -1,0 +1,111 @@
+{
+  "styleName": "sample",
+  "libraryPaths": [
+    "sample.min.css"
+  ],
+  "pageHead": [
+    "<meta charset=\"utf-8\">",
+    "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+  ],
+  "spaceBetweenBlocks": "space-between-blocks",
+  "alignment": {
+    "left": "alignment_text_left",
+    "center": "alignment_text_center",
+    "right": "alignment_text_right"
+  },
+  "blocks": {
+    "header": {
+      "h1": "",
+      "h2": "",
+      "h3": "",
+      "h4": "",
+      "h5": "",
+      "h6": ""
+    },
+    "paragraph": "",
+    "quote": {
+      "figure": "quote_figure",
+      "blockquote": "quote_blockquote",
+      "figcaption": "quote_figcaption"
+    },
+    "warning": {
+      "block": "warning_msg",
+      "title": ""
+    },
+    "delimiter": "delimiter_block",
+    "alert": {
+      "block": "alert_box",
+      "types": {
+        "primary": "alert_primary",
+        "secondary": "alert_secondary",
+        "info": "alert_info",
+        "success": "alert_success",
+        "warning": "alert_warning",
+        "danger": "alert_danger",
+        "light": "alert_light",
+        "dark": "alert_dark"
+      }
+    },
+    "list": {
+      "group": "list_group",
+      "nestedGroup": "",
+      "item": "list_item"
+    },
+    "checklist": {
+      "block": "checklist_block",
+      "item": "checklist_item",
+      "text": "checklist_item_text",
+      "checkboxChecked": "checklist_item_checkbox checklist_checked",
+      "checkboxUnchecked": "checklist_item_checkbox"
+    },
+    "table": {
+      "table": "table_block",
+      "row": "table_tr",
+      "cellTH": "table_th",
+      "cellTD": "table_td"
+    },
+    "anyButton": "anyButton",
+    "code": {
+      "pre": "code_pre",
+      "code": "code_block"
+    },
+    "raw": {
+      "pre": "raw_pre",
+      "code": "raw_block"
+    },
+    "image": {
+      "border": "image image_with_border",
+      "stretched": "image image_stretched",
+      "background": "image image_with_background"
+    },
+    "linkTool": {
+      "link": "",
+      "container": "linkTool_content",
+      "row": "",
+      "leftColumn": "linkTool_left_side",
+      "rightColumn": "linkTool_image_block",
+      "title": "linkTool_title",
+      "description": "linkTool_description",
+      "linkDescription": "linkTool_anchor",
+      "image": "linkTool_image"
+    },
+    "attaches": {
+      "link": "",
+      "container": "attaches_content",
+      "row": "",
+      "leftColumn": "attaches_left",
+      "centerColumn": "attaches_center",
+      "rightColumn": "attaches_right",
+      "filename": "attaches_filename",
+      "size": "attaches_size",
+      "leftImage": "attaches_image",
+      "rightImage": "attaches_image"
+    },
+    "embed": {
+      "block": "embed_block",
+      "title": "embed_title",
+      "bottom": "embed_bottom",
+      "link": "embed_link"
+    }
+  }
+}
